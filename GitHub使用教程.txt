@@ -1,0 +1,14 @@
+git使用教程之最简单到不能更简单版
+
+对于已经在git网站上建立了仓库的同学，做如下操作：
+0. 配置系统基本信息：（注意替换名字和邮箱）
+   git config --global user.name "徐行健"
+   git config --global user.email "xingjian@imnu.edu.cn"
+1. 执行 git clone git-remote-url 将仓库克隆到本地（git-remote-url可以从网页获得，参考群里的聊天记录）
+2. 你会发现你当前工作路径下会多出一个文件夹（文件夹名会显示在上个命令的输出里），这个文件夹装的就是远程仓库的内容
+3. 你以后需要提交的毕设内容，如文档、代码，都放在这个新的目录中
+4. 需要把本地文件夹里的内容同步更新到网站仓库中（即上传）的时候，执行：
+  git add --all
+  git commit -m 'Update'
+  git push
+5. 如果过程报错，自己搜网上的信息，都能解决
