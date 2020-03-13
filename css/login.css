@@ -1,0 +1,28 @@
+header {
+  height: 106px;
+  width: 100%;
+  font-size: 30px;
+  background-color: pink;
+}
+.bd {
+  text-align: center;
+}
+.bd p {
+  font-size: 40px;
+}
+.bd input {
+  width: 420px;
+  height: 20px;
+  border: 1px solid #ccc;
+  padding: 7px 0px;
+  border-radius: 3px;
+  padding-left: 5px;
+  margin-top: 35px;
+}
+.bd button {
+  width: 425px;
+  height: 35px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  margin-top: 35px;
+}
